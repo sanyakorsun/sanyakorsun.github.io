@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Теніc</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf4fc;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1b4965;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: white;
+            margin: 0 0 20px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            margin: 0 5px;
+            background-color: #3f88c5;
+            border-radius: 4px;
+        }
+
+        nav a:hover {
+            background-color: #62b6cb;
+        }
+
+        nav a.active {
+            background-color: #ffffff;
+            color: #1b4965;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1000px;
+            margin: 20px auto;
+            gap: 20px;
+            padding: 0 15px;
+        }
+
+        main {
+            flex: 3;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .sidebar {
+            flex: 1;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3f88c5;
+        }
+
+        h2 {
+            color: #1b4965;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎾 Спорт</h1>
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="football.html">Футбол</a>
+            <a href="tennis.html" class="active">Теніс</a>
+            <a href="f1.html">Формула-1</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <h2>Великий Теніс</h2>
+            <p><strong>Теніс</strong> — гра, у якій два гравці (або дві пари) відбивають м'яч ракетками через сітку.</p>
+            <p>Для гри потрібні хороша реакція, швидкість і витривалість.</p>
+        
+            <h3>Головні турніри (Великий Шолом):</h3>
+            <ul>
+                <li>Вімблдон</li>
+                <li>Ролан Гаррос</li>
+                <li>US Open</li>
+                <li>Australian Open</li>
+            </ul>
+        </main>
+        <div class="sidebar">
+                <h3>Цікавий факт</h3>
+                <p>Початково у теніс грали долонями без ракеток,
+            а м'ячі виготовляли з дерев'яних ошурок, вгорнутих
+            у шкіру або шерсть. М'ячі сучасного яскраво-жовтого
+            кольору з'явилися лише у 1972 році — їх розробили
+            спеціально для того, щоб глядачам було краще видно
+            гру на кольорових телевізорах.</p>
+            </div>
+    </div>
+
+
+</body>
+</html>

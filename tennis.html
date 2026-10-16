@@ -3,82 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Теніc</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #eaf4fc;
-            color: #333333;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #1b4965;
-            padding: 15px;
-            text-align: center;
-        }
-
-        header h1 {
-            color: white;
-            margin: 0 0 20px 0;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 8px 15px;
-            margin: 0 5px;
-            background-color: #3f88c5;
-            border-radius: 4px;
-        }
-
-        nav a:hover {
-            background-color: #62b6cb;
-        }
-
-        nav a.active {
-            background-color: #ffffff;
-            color: #1b4965;
-            font-weight: bold;
-        }
-
-        .container {
-            display: flex;
-            max-width: 1000px;
-            margin: 20px auto;
-            gap: 20px;
-            padding: 0 15px;
-        }
-
-        main {
-            flex: 3;
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-        }
-
-        .sidebar {
-            flex: 1;
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 8px;
-            border-left: 4px solid #3f88c5;
-        }
-
-        h2 {
-            color: #1b4965;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
         <h1>🎾 Спорт</h1>
         <nav>
-            <a href="index.html">Головна</a>
-            <a href="football.html">Футбол</a>
-            <a href="tennis.html" class="active">Теніс</a>
-            <a href="f1.html">Формула-1</a>
+            <ul class="menu">
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="football.html">Футбол</a></li>
+                <li><a href="tennis.html" class="active">Теніс</a></li>
+                <li><a href="f1.html">Формула-1</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -107,6 +44,15 @@
             </div>
     </div>
 
+    <footer>
+        <p>&copy; 2026 Спорт. Усі права захищено.</p>
+        <p>
+            <a href="index.html">Головна</a> |
+            <a href="football.html">Футбол</a> |
+            <a href="tennis.html">Теніс</a> |
+            <a href="f1.html">Формула-1</a>
+        </p>
+    </footer>
 
 </body>
 </html>
